@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme{
+    --container-md:768px;
+    --font-saira:["'Saira Condensed', sans-serif"];
+    --color-yel:"#ffa500";
+    --color-btn:"#174153";
+    --color-btnhover:"#c57f00";
+    --color-footer:"#11526e";
+    --color-black:"#111111";
+    --color-red:"#d90a2c";
+}

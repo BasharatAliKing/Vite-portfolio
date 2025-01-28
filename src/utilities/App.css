@@ -1,0 +1,46 @@
+.active{
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+}
+.navbars{
+    width: 100%;
+    position: fixed;
+    background-color: #111111;
+    z-index: 30;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to left, #d90a2c 50%, #032e40 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.btn:hover{
+    background-position: bottom;
+}
+.contact .react-tel-input .form-control {
+    border: 2px solid #e5e7eb;
+    width: 100%;
+}
+.main-heading{
+    color: transparent;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px #d90a2c;
+}
+.full-main{
+    color: transparent;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: .05em;
+    -webkit-text-stroke: 3px #d90a2c;
+}
+@media(max-width:576px){
+    .main-heading{
+        font-size: 25px
+    }
+}
