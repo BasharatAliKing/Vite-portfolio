@@ -17,7 +17,7 @@ export default function Footer() {
         <div className=" grid gap-5 py-10 md:gap-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3  md:grid lg:grid-cols-4 md:py-16 ">
           <div className="bg-[#000] p-5 rounded-lg">
             <img
-              src="../public/logo.png"
+              src="./images/logo.png"
               alt="My-Pic"
               className="w-[20%] sm:w-[20%]"
             />

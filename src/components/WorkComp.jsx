@@ -3,40 +3,40 @@ import { Link } from "react-router-dom";
 const WorkCompImg = [
   {
     link: "https://bdking-currencychanger.netlify.app/",
-    img: "./public/currencychanger.png",
+    img: /images/currencychanger.png",
   },
   {
     link: "https://teal-bublanina-5595ac.netlify.app/",
-    img: "../public/petcare.png",
+    img: "/images/petcare.png",
   },
   {
     link: "https://titanic-bd.netlify.app/",
-    img: "../public/titanic.png",
+    img: "/images/titanic.png",
   },
   {
     link: "https://divisima-bdking.netlify.app/",
-    img: "../public/divisima.png",
+    img: "/images/divisima.png",
   },
   {
     link: "https://bpexch.netlify.app/",
-    img: "../public/pbexch.png",
+    img: "/images/pbexch.png",
   },
   {
     link: "https://bdking-tasktracking.netlify.app/",
-    img: "../public/tasktracker.png",
+    img: "/images/tasktracker.png",
   },
   {
     link: "https://exquisite-taiyaki-bb2767.netlify.app/",
-    img: "../public/leadbud.png",
+    img: "/images/leadbud.png",
   },
   {
     link: "https://bdking-backery.netlify.app/",
-    img: "../public/bakery.PNG",
+    img: "/images/bakery.PNG",
   },
 ];
 export default function WorkComp() {
   return (
-    <section className="flex flex-col gap-3 bg-[url(/public/work.png)]  bg-cover bg-white font-saira py-6 md:py-10 xl:py-16 px-2 sm:px-5 md:px-10 xl:px-16">
+    <section className="flex flex-col gap-3 bg-[url(/images/work.png)]  bg-cover bg-white font-saira py-6 md:py-10 xl:py-16 px-2 sm:px-5 md:px-10 xl:px-16">
       <h1 className="text-2xl md:text-3xl lg:text-5xl px-1 md:px-2 font-bold text-[#d90a2c] border-4 border-l-[#d90a2c] border-t-0 border-r-0 border-b-0 lg:px-3">
         Work
       </h1>
