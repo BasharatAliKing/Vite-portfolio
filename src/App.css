@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+  }
 .container{
     padding: 0px 80px;
 }

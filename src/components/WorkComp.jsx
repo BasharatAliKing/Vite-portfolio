@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const WorkCompImg = [
   {
     link: "https://bdking-currencychanger.netlify.app/",
-    img: "/images/currencychanger.png",
+    img: "/images/currencyChanger.png",
   },
   {
     link: "https://teal-bublanina-5595ac.netlify.app/",
@@ -56,7 +56,7 @@ export default function WorkComp() {
                 Go to Page
               </button>
             </div>
-            <img src={val.img} alt="my-img" />
+            <img src={val.img} className="w-[70%] md:w-[auto] m-auto" alt="my-img" />
           </Link>
         ))}
       </div>

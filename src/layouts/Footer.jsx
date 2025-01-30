@@ -35,35 +35,35 @@ export default function Footer() {
                 to="/home"
                 className="flex items-center text-sm hover:text-[#934753]"
               >
-                <IoIosArrowForward className="mr-0 mt-1 text-[#d90a2c] " />
+                <IoIosArrowForward className="mr-0 md:mt-[2px] text-[#d90a2c] " />
                 Home
               </Link>
               <Link
                 to="/work"
                 className="flex items-center text-sm hover:text-[#d90a2c]"
               >
-                <IoIosArrowForward className="mr-0 mt-1 text-[#d90a2c] " />
+                <IoIosArrowForward className="mr-0 md:mt-[2px] text-[#d90a2c] " />
                 Work
               </Link>
               <Link
                 to="/portfolio"
                 className="flex items-center text-sm hover:text-[#d90a2c]"
               >
-                <IoIosArrowForward className="mr-0 mt-1 text-[#d90a2c] " />
+                <IoIosArrowForward className="mr-0 md:mt-[2px] text-[#d90a2c] " />
                 Portfolio
               </Link>
               <Link
                 to="/about"
                 className="flex items-center text-sm hover:text-[#d90a2c]"
               >
-                <IoIosArrowForward className="mr-0 mt-1 text-[#d90a2c] " />
+                <IoIosArrowForward className="mr-0 md:mt-[2px] text-[#d90a2c] " />
                 About
               </Link>
               <Link
                 to="/contact"
                 className="flex items-center text-sm hover:text-[#d90a2c]"
               >
-                <IoIosArrowForward className="mr-0 mt-1 text-[#d90a2c] " />
+                <IoIosArrowForward className="mr-0 md:mt-[2px] text-[#d90a2c] " />
                 Contact
               </Link>
             </ul>
@@ -122,7 +122,7 @@ export default function Footer() {
             Copyright &copy; basharatalidogar14@gmail.com All Right Reversed!
           </div>
           <div className="md:ml-auto text-xs md:text-sm cursor-pointer">
-            Designed by B.D king
+            Designed by B.D king ❤️
           </div>
         </div>
       </div>

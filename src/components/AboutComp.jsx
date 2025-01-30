@@ -21,7 +21,7 @@ export default function AboutComp() {
           <span className="text-[#d90a2c]">Thanks.... to you</span>
         </div>
         <div className="md:w-1/2 flex justify-center mt-5 md:mt-0 ">
-        <img src="/images/user.png" className="w-[50%] border-red-500 border-8 rounded-bl-[20%] rounded-tr-[20%] pr-2 pt-2" alt="my-pic" />
+        <img src="/images/user.png" className="w-[70%] md:w-[50%] border-red-500 border-8 rounded-bl-[20%] rounded-tr-[20%] pr-2 pt-2" alt="my-pic" />
          
         </div>
       </div>

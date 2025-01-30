@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <div className=" bg-[url(/images/portfoliobg.avif)] bg-no-repeat bg-cover">
-        <div className="flex  px-2 sm:px-5 md:px-10 xl:px-16 flex-col items-center py-10 justify-center w-full md:flex-row md:h-screen  ">
+        <div className="flex  px-2 sm:px-5 md:px-10 xl:px-16 flex-col md:pt-20 items-center py-10 justify-center w-full md:flex-row md:h-screen  ">
           <div className="flex flex-col text-white gap-y-1 mt-24 sm:mt-28 md:mt-0  md:h-auto w-screen  md:gap-y-3  px-4 md:w-1/2">
             <h4 className="text-sm md:text-base lg:text-xl font-medium font-saira">
               Hey, I Am
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" md:w-1/2 md:h-auto flex justify-center mt-10 md:mt-0">
-            <img src="/images/user.png" className="w-[50%] border-red-500 border-8 rounded-bl-[20%] rounded-tr-[20%] pr-2 pt-2" alt="my-pic" />
+            <img src="/images/user.png" className="w-[70%] md:w-[50%] border-red-500 border-8 rounded-bl-[20%] rounded-tr-[20%] pr-2 pt-2" alt="my-pic" />
           </div>
         </div>
       </div>
