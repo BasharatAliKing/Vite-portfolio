@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" md:w-1/2 md:h-auto flex justify-center mt-10 md:mt-0">
-            <img src="/images/user.png" className="w-[50%]" alt="my-pic" />
+            <img src="/images/user.png" className="w-[50%] border-red-500 border-8 rounded-bl-[20%] rounded-tr-[20%] pr-2 pt-2" alt="my-pic" />
           </div>
         </div>
       </div>
