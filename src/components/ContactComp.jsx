@@ -52,7 +52,7 @@ export default function ContactComp() {
               >
                 <img
                   className="mr-2"
-                  src="../public/gmail.png"
+                  src="/images/gmail.png"
                   alt=""
                 />
                 E-Mail
@@ -63,7 +63,7 @@ export default function ContactComp() {
               >
                 <img
                   className="mr-2"
-                  src="../public/whatsapp.png"
+                  src="/images/whatsapp.png"
                   alt=""
                 />
                 Whatsapp
@@ -74,7 +74,7 @@ export default function ContactComp() {
               >
                 <img
                   className="mr-2"
-                  src="../public/twitter.png"
+                  src="/images/twitter.png"
                   alt=""
                 />
                 Twitter
@@ -85,7 +85,7 @@ export default function ContactComp() {
               >
                 <img
                   className="mr-2"
-                  src="../public/facebook.png"
+                  src="/images/facebook.png"
                   alt=""
                 />
                 Facebook
@@ -96,7 +96,7 @@ export default function ContactComp() {
               >
                 <img
                   className="mr-2"
-                  src="../public/instagram.png"
+                  src="/images/instagram.png"
                   alt=""
                 />
                 Instagram

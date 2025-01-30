@@ -22,7 +22,7 @@ export default function AboutComp() {
         </div>
         <div className="md:w-1/2 flex justify-center mt-5 md:mt-0 ">
           <img
-            src="../public/user.png"
+            src="/images/user.png"
             className=" w-[70%] sm:w-[50%] md:w-[70%] lg:w-[50%]"
             alt="my-pic"
           />
@@ -54,47 +54,47 @@ export default function AboutComp() {
       <div className="flex gap-3 md:gap-5 flex-wrap items-center">
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/vscode.png"
+          src="/images/vscode.png"
           alt=""
         />
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/html.png"
+          src="/images/html.png"
           alt=""
         />
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/css.png"
+          src="/images/css.png"
           alt=""
         />
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/js.png"
+          src="/images/js.png"
           alt=""
         />
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/logo192.png"
+          src="/images/logo192.png"
           alt=""
         />
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/bootstrap.png"
+          src="/images/bootstrap.png"
           alt=""
         />
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/tailwind.png"
+          src="/images/tailwind.png"
           alt=""
         />
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/nodejs.png"
+          src="/images/nodejs.png"
           alt=""
         />
         <img
           className="w-[10%] md:w-[7%] lg:w-[5%]"
-          src="../public/mongodb.png"
+          src="/images/mongodb.png"
           alt="my-img"
         />
       </div>

@@ -7,7 +7,7 @@ export default function Alltextupper(props) {
            <ul>
             <li className='flex gap-5 items-center'>
               <h3 className='text-[#d90a2c] text-lg font-saira'>Home</h3> 
-              <img src="../public/arrow-right.svg" alt="" /> 
+              <img src="/images/arrow-right.svg" alt="" /> 
               <h2 className='font-saira text-lg '>{props.subheading}</h2></li>
            </ul>
         </div>
