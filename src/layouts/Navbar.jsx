@@ -31,7 +31,7 @@ export default function Navbar() {
             <div className="logo ">
               <Link className="cursor-pointer" to="/home">
                 <img
-                  src="./public/logo.png"
+                  src="/images/logo.png"
                   className="ml-2 sm:ml-4 md:ml-0 w-[30%]"
                   alt="my-pic"
                 />
