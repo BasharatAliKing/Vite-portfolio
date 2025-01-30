@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./layouts/Navbar";
-import { BrowserRouter as Router , Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router , Routes, Route , ScrollRestoration } from "react-router-dom";
 import Home from "./pages/Home";
 import "./App.css"
 import About from "./pages/About";
@@ -8,10 +8,13 @@ import Contact from "./pages/Contact";
 import Work from "./pages/Work";
 import Error from "./pages/Error"
 import Layout from "./pages/Layout";
+import ScrollTop from "./components/Scrollbar";
+
 function App() {
   return (
     <>
       <Router>
+        <ScrollTop/>
        <Routes>
         <Route exact path="/" element={<Layout/>} >
         <Route exact path="/" element={<Home/>} />

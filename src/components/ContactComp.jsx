@@ -104,7 +104,7 @@ export default function ContactComp() {
             </div>
           </div>
           <div className="flex flex-col mt-10 md:mt-0 md:w-1/2 md:mx-10 my-auto">
-            <div className="shadow p-7 rounded-xl flex flex-col gap-3">
+            <div className="shadow p-3 md:p-7 rounded-xl flex flex-col gap-3">
               <h2 className="text-lg md:text-2xl text-btn font-medium">
                 Fill out the form and we'll be in touch ASAP.
               </h2>

@@ -6,11 +6,10 @@ import resume from "../assets/cv.pdf";
 import ContactComp from "../components/ContactComp";
 import { Link } from "react-router-dom";
 import Footer from "../layouts/Footer";
-import userimg from "../assets/images/user.jpg";
 export default function Home() {
   return (
     <>
-      <div className=" bg-[#000] bg-no-repeat bg-cover top-0">
+      <div className=" bg-[url(/public/portfoliobg.avif)] bg-no-repeat bg-cover">
         <div className="flex  px-2 sm:px-5 md:px-10 xl:px-16 flex-col items-center py-10 justify-center w-full md:flex-row md:h-screen  ">
           <div className="flex flex-col text-white gap-y-1 mt-24 sm:mt-28 md:mt-0  md:h-auto w-screen  md:gap-y-3  px-4 md:w-1/2">
             <h4 className="text-sm md:text-base lg:text-xl font-medium font-saira">
@@ -55,11 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" md:w-1/2 md:h-auto flex justify-center mt-10 md:mt-0">
-            <img
-              src={userimg}
-              className="border-8 rounded-tl-3xl rounded-br-3xl border-[#d90a2c] w-[70%] md:w-[50%] xxl:w-[40%]"
-              alt="my-pic"
-            />
+            <img src="/public/user.png" className="w-[50%]" alt="my-pic" />
           </div>
         </div>
       </div>
@@ -73,7 +68,6 @@ export default function Home() {
       <div className="container">
         <hr className="text-gray-700" />
       </div>
-    
     </>
   );
 }

@@ -13,8 +13,8 @@ import { MdCall } from "react-icons/md";
 export default function Footer() {
   return (
     <>
-      <section className="bg-[#212125] bg-no-repeat bg-cover  text-gray-200 font-saira px-2 sm:px-5 md:px-10 xl:px-16">
-        <div className=" grid gap-10 py-10 md:gap-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3  md:grid lg:grid-cols-4 md:py-16 ">
+      <section className="bg-[url(/public/portfoliobg.avif)]   text-gray-200 font-saira px-2 sm:px-5 md:px-10 xl:px-16">
+        <div className=" grid gap-5 py-10 md:gap-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3  md:grid lg:grid-cols-4 md:py-16 ">
           <div className="bg-[#000] p-5 rounded-lg">
             <img
               src="../public/logo.png"
