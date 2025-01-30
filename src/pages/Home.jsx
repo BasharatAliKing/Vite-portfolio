@@ -5,7 +5,6 @@ import AboutComp from "../components/AboutComp";
 import resume from "../assets/cv.pdf";
 import ContactComp from "../components/ContactComp";
 import { Link } from "react-router-dom";
-import Footer from "../layouts/Footer";
 export default function Home() {
   return (
     <>
