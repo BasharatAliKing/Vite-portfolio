@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const WorkCompImg = [
   {
     link: "https://bdking-currencychanger.netlify.app/",
-    img: /images/currencychanger.png",
+    img: "/images/currencychanger.png",
   },
   {
     link: "https://teal-bublanina-5595ac.netlify.app/",
