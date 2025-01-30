@@ -56,7 +56,7 @@ export default function WorkComp() {
                 Go to Page
               </button>
             </div>
-            <img src={val.img} className="w-[70%] md:w-[auto] m-auto" alt="my-img" />
+            <img src={val.img} className="w-[80%] md:w-[auto] m-auto" alt="my-img" />
           </Link>
         ))}
       </div>
